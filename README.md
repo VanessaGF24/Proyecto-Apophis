@@ -1,36 +1,44 @@
-#  La aproximación de Apophis en 2029
-En abril de 2029, el asteroide (99942) Apophis tendrá una aproximación extremadamente cercana a la Tierra, considerada uno de los eventos astronómicos más importantes de la década debido a su tamaño y proximidad.
+# Análisis Dinámico de la Aproximación de Apophis (2029)
 
-Este proyecto estudia dicha aproximación utilizando herramientas teóricas y computacionales de la Mecánica Celeste, con el fin de analizar su comportamiento dinámico y posibles efectos gravitacionales durante el encuentro.
+En abril de 2029, el asteroide **(99942) Apophis** pasará a menos de 32,000 km de la superficie terrestre. Este proyecto implementa un modelo computacional basado en la mecánica de dos cuerpos para analizar su trayectoria heliocéntrica y su encuentro cercano con el sistema Tierra-Luna.
 
 ##  Objetivo
 
-Aplicar los métodos, teorías y algoritmos vistos en el curso de Mecánica Celeste para modelar y analizar la trayectoria del asteroide Apophis durante su aproximación a la Tierra.
+Modelar y analizar la dinámica orbital de Apophis mediante el uso de **coordenadas de Jacobi** y **unidades canónicas**, aplicando algoritmos de resolución para el problema de los dos cuerpos relativo. Se busca validar las constantes del movimiento (energía, momento angular y vector de excentricidad) utilizando datos reales de efemérides.
 
-Se busca reproducir, a pequeña escala, el tipo de análisis que realizan especialistas en dinámica orbital al estudiar objetos potencialmente peligrosos.
+##  Métodos y Teoría
 
-## Métodos
--
-- 
+En este proyecto se aplican los siguientes conceptos de Mecánica Celeste:
+
+*   **Problema de los Dos Cuerpos Relativo:** Modelado de la interacción Sol-Apophis y Tierra-Apophis.
+*   **Coordenadas de Jacobi:** Transformación de vectores de posición y velocidad al centro de masas del sistema para simplificar las ecuaciones de movimiento.
+*   **Unidades Canónicas:** Implementación de un sistema de unidades donde $G = 1$, $M_{central} = 1$ y $L = 1 \, \text{UA}$ (o $R_{\oplus}$), facilitando la estabilidad numérica y la generalización del código.
+*   **Cálculo de Constantes de Integración:** Determinación de la excentricidad ($e$), el momento angular específico ($h$) y la energía orbital ($\varepsilon$) a partir de vectores de estado 3D.
+*   **Efemérides Reales:** Integración de la librería `astroquery` para obtener vectores de estado precisos desde **NASA JPL Horizons**.
+
 ## Experimentos
 
-- ...
-- ...
-- ... 
+1.  **Simulación Heliocéntrica (Sol-Apophis):** Modelado de la órbita completa de Apophis, análisis de su periodicidad y validación de su excentricidad ($e \approx 0.19$).
+2.  **Análisis de la Fuerza Gravitacional:** Estudio de la variación de la fuerza de atracción a lo largo de un periodo orbital para identificar el perihelio y el afelio.
+3.  **Modelado del Encuentro Cercano (Tierra-Apophis):** Simulación de la trayectoria de aproximación en 2029 utilizando unidades de radios terrestres para analizar la deflexión de la trayectoria.
+4.  **Validación de Constantes:** Verificación de la conservación del momento angular y la energía durante la simulación numérica.
 
-## Resultados
+##  Resultados
 
-Incluyen:
-- Gráficas de trayectorias  
-- Animaciones  
-- ...
+El proyecto genera los siguientes productos:
+*   **Gráficas de Trayectorias:** Visualizaciones 2D y 3D de la órbita en el plano orbital y en el espacio eclíptico.
+*   **Perfiles Cinéticos:** Gráficas de la variación de la fuerza gravitacional y velocidad en función del tiempo.
+*   **Cálculo de Parámetros:** Determinación automática de $a, e, p, q$ y $Q$ a partir de cualquier fecha de observación.
+*   **Animaciones:** Representación dinámica del movimiento relativo en coordenadas de Jacobi.
 
-##  Estructura
+##  Estructura del Repositorio
 
-- `src/` → Código principal de simulación  
-- `simulations/` → Configuración de experimentos  
-- `results/` → Resultados y visualizaciones  
-- `docs/` → Fundamento teórico  
+*   `src/` → Scripts de procesamiento (conversión a unidades canónicas y álgebra de vectores).
+*   `simulations/` → Notebooks con los experimentos Sol-Apophis y Tierra-Apophis.
+*   `results/` → Gráficas de fuerzas, órbitas y archivos de datos exportados.
+*   `docs/` → Documentación técnica sobre la deducción de las coordenadas de Jacobi y el vector de Runge-Lenz.
+## Referencias
+----
 
 ##  Referencias
 
