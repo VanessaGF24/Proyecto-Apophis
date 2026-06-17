@@ -5,7 +5,7 @@
 
 ## Archivos revisados
 
-- Proyecto-AproximaciónApophis-MC2026-1 (archivo no encontrado)
+- Proyecto-AproximaciónApophis-MC2026-1.ipynb (versión final entregada)
 
 ## Historial de commits
 
@@ -30,7 +30,7 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido.
 
 ## Retroalimentación
 
-- Archivo revisado: Proyecto-AproximaciónApophis-MC2026-1
+- Archivo revisado: Proyecto-AproximaciónApophis-MC2026-1.ipynb (versión final entregada)
 
 ### Aspectos positivos
 
@@ -40,22 +40,32 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido.
 
 ### Aspectos por mejorar
 
-- Los gráficos del primer experimento deben ir con axis('equal')
-- Sería bueno organizar en el entregable final los experimentos numéricos en un reporte final y no dejar el código tal y como lo fuiste construyendo.
-- En el experimento inicial con la integración de Euler falto calcular la fecha y la distancia final.
-- Evita imprimir tablas o DataFrames que no aportan mucho al análisis del experimento numérico.
-- Hay celdas con errores (pe. cuando se incluye a Júpiter en la simulación con ncuerpos_solucion).
-- La explicación previa al código es parcial; conviene anteceder cada bloque importante con una celda de texto breve.
-- Se observa código extenso en varios puntos; conviene reducir repetición y encapsular rutinas.
-- Las animaciones prometidas nunca terminan de mostrarse.
-- El cálculo de los elementos orbitales es interesante, pero la teoría del problema de los dos cuerpos no solo es convertir de vector de estado a elementos orbitales.
-- Cambiar "Velocidad Arial" por "Velocidad Areal".
-- El cuarto experimento nunca se realiza. 
-- En el quinto experimento el cálculo del semiejemayor da negativo.
-- El sexto experimento está incompleto.
-- Se recomienda cerrar con una sección unica de conclusiones (3-5 puntos) que sintetice hallazgos físicos y computacionales y responda directamente al objetivo del proyecto.
+- Los gráficos del primer experimento deben ir con axis('equal') [No mejorado]
+- Sería bueno organizar en el entregable final los experimentos numéricos en un reporte final y no dejar el código tal y como lo fuiste construyendo. [No mejorado]
+- En el experimento inicial con la integración de Euler falto calcular la fecha y la distancia final. [No mejorado]
+- Evita imprimir tablas o DataFrames que no aportan mucho al análisis del experimento numérico. [Mejorado]
+- Hay celdas con errores (pe. cuando se incluye a Júpiter en la simulación con ncuerpos_solucion). [Mejorado]
+- La explicación previa al código es parcial; conviene anteceder cada bloque importante con una celda de texto breve. [No mejorado]
+- Se observa código extenso en varios puntos; conviene reducir repetición y encapsular rutinas. [No mejorado]
+- Las animaciones prometidas nunca terminan de mostrarse. [Parcialmente mejorado]
+- El cálculo de los elementos orbitales es interesante, pero la teoría del problema de los dos cuerpos no solo es convertir de vector de estado a elementos orbitales. [Parcialmente mejorado]
+- Cambiar "Velocidad Arial" por "Velocidad Areal". [Mejorado]
+- El cuarto experimento nunca se realiza.  [Mejorado]
+- En el quinto experimento el cálculo del semiejemayor da negativo. [Mejorado]
+- El sexto experimento está incompleto. [Mejorado]
+- Se recomienda cerrar con una sección unica de conclusiones (3-5 puntos) que sintetice hallazgos físicos y computacionales y responda directamente al objetivo del proyecto. [No mejorado]
 
 ### Valoración global
 
 - Trabajo inaceptable en su forma actual. Hace falta terminar los experimentos numéricos no terminados.
 - Estado de recepción: se recibe como fue entregado, con recomendaciones de mejora.
+- La versión final es mejor, presenta nuevos experimentos, pero muchos errores y problemas de la anterior versión siguen estando.
+
+## Valoración final
+
+- Mejoras implementadas: 2.50 (70%)
+- Aplicación al repositorio: 4.00 (10%)
+- Aspectos positivos: 3.00 (10%)
+- Valoración global: 2.50 (10%)
+
+**Nota final (redondeada)**: 0.7×2.50 + 0.1×4.00 + 0.1×3.00 + 0.1×2.50 = (redondeado) 2.7
