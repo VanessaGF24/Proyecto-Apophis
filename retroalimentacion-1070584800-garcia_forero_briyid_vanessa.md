@@ -41,13 +41,13 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido.
 ### Aspectos por mejorar
 
 - Los gráficos del primer experimento deben ir con axis('equal') [No mejorado]
-- Sería bueno organizar en el entregable final los experimentos numéricos en un reporte final y no dejar el código tal y como lo fuiste construyendo. [No mejorado]
-- En el experimento inicial con la integración de Euler falto calcular la fecha y la distancia final. [No mejorado]
+- Sería bueno organizar en el entregable final los experimentos numéricos en un reporte final y no dejar el código tal y como lo fuiste construyendo. [Mejorado]
+- En el experimento inicial con la integración de Euler falto calcular la fecha y la distancia final. [Mejorado]
 - Evita imprimir tablas o DataFrames que no aportan mucho al análisis del experimento numérico. [Mejorado]
 - Hay celdas con errores (pe. cuando se incluye a Júpiter en la simulación con ncuerpos_solucion). [Mejorado]
 - La explicación previa al código es parcial; conviene anteceder cada bloque importante con una celda de texto breve. [No mejorado]
 - Se observa código extenso en varios puntos; conviene reducir repetición y encapsular rutinas. [No mejorado]
-- Las animaciones prometidas nunca terminan de mostrarse. [Parcialmente mejorado]
+- Las animaciones prometidas nunca terminan de mostrarse. [Mejorado]
 - El cálculo de los elementos orbitales es interesante, pero la teoría del problema de los dos cuerpos no solo es convertir de vector de estado a elementos orbitales. [Parcialmente mejorado]
 - Cambiar "Velocidad Arial" por "Velocidad Areal". [Mejorado]
 - El cuarto experimento nunca se realiza.  [Mejorado]
