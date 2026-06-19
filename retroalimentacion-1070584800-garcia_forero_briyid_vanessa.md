@@ -63,9 +63,9 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido.
 
 ## Valoración final
 
-- Mejoras implementadas: 2.50 (70%)
+- Mejoras implementadas: 3.39 (70%)
 - Aplicación al repositorio: 4.00 (10%)
 - Aspectos positivos: 3.50 (10%)
 - Valoración global: 3.20 (10%)
 
-**Nota final (redondeada)**: 0.7×2.50 + 0.1×4.00 + 0.1×3.50 + 0.1×3.20 = (redondeado) 2.8
+**Nota final (redondeada)**: 0.7×3.39 + 0.1×4.00 + 0.1×3.50 + 0.1×3.20 = (redondeado) 3.4
